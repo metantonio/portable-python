@@ -69,3 +69,17 @@ Then, run the following command:
 ```bash
 .\python.exe -m pip list
 ```
+
+## Saving the List of Installed Libraries
+
+Navigate to the ``python_embedded`` folder first:
+
+```bash
+cd ./python_embedded
+```
+
+Then, save the list of installed libraries to a file:
+
+```bash
+.\python.exe -m pip freeze > ..\requirements.txt
+```
