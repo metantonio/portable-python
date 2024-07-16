@@ -98,4 +98,4 @@ Then, execute
 .\python.exe -m pip install -r ..\requirements.txt
 ```
 
-Note: `requirements.txt` must exist on the root of this project
+Note: `requirements.txt` must exist on the root of this project. Note that `you must be inside of the python_embedded folder`, because it needs ``importlib`` and it could trigger stderr message if doesn't find it. 
