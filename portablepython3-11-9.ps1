@@ -11,7 +11,7 @@ if (!$pythonVersion) {
 }
 
 if (!$destination) {
-    $destination = '.\'
+    $destination = '.\python_embedded\'
 }
 
 # Fixes an error if the user doesn't put a backslash at the end of the url
