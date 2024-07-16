@@ -16,7 +16,7 @@ You can use the terminal too, if you prefer:
 
 ## Install PIP
 
-To install new modules, you should navigate to the ``python_embedded`` folder first:
+To install ``pip``, you should navigate to the ``python_embedded`` folder first:
 
 ```bash
 cd ./python_embedded
@@ -54,3 +54,18 @@ Then, run the following command:
 ```
 
 You should see `Hello World!` on the terminal
+
+
+## List of libraries installed on the portable version
+
+To see the list of libraries, you should navigate to the ``python_embedded`` folder first:
+
+```bash
+cd ./python_embedded
+```
+
+Then, run the following command:
+
+```bash
+.\python.exe -m pip list
+```
