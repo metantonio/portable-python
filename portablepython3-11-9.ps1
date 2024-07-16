@@ -70,10 +70,9 @@ Remove-Item -Path "$($destination)$($pythonVersion).zip" -Confirm:$false -Force
 "Done!
 
 INFO:
-You can install module by running .\python.exe -m pip YOURMODULE
+You can install module by running .\python.exe -m pip install YOURMODULE
 
 Always use full path or relative path with with . or .. (e.g. .\python.exe) to run your portable python.
 Otherwise, you may trigger the python that has been installed on your system (if any) instead.
 
-TO DO:
-You can now remove this .ps1 file manually!"
+"
