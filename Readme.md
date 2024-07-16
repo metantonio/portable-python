@@ -83,3 +83,19 @@ Then, save the list of installed libraries to a file:
 ```bash
 .\python.exe -m pip freeze > ..\requirements.txt
 ```
+
+## Install Libraries from a requirements.txt
+
+Navigate to the ``python_embedded`` folder first:
+
+```bash
+cd ./python_embedded
+```
+
+Then, execute
+
+```bash
+.\python.exe -m pip install -r ..\requirements.txt
+```
+
+Note: `requirements.txt` must exist on the root of this project
