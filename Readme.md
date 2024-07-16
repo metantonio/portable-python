@@ -22,7 +22,7 @@ If you desire to change the version, please use the terminal with the `source` a
 
 Link for [Python versions](https://www.python.org/downloads/windows/)
 
-If you defise to change the destination folder, use the terminal with the `destination` argument:
+If you desire to change the destination folder, use the terminal with the `destination` argument:
 
 ```powershell
 .\portablepython3-11-9.ps1 -destination "C:\new-path\PortablePython\"
