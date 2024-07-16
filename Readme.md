@@ -28,6 +28,7 @@ Then, run the following command:
 .\python get-pip.py
 ```
 
+Note: You only need to do this once.
 
 ## Running PIP
 
