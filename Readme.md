@@ -1,4 +1,4 @@
-# Portable python
+# Portable Python
 
 The instance of non virtualized Python that is not dependent on the system path and can run independently. You can move python portable anywhere on your computer or to another computer. You can have more than one instance of portable python running simultaneously on your system. You can also have the combination of traditionally installed Python and portable Python.
 
