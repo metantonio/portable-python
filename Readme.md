@@ -14,6 +14,22 @@ You can use the terminal too, if you prefer:
 .\portablepython3-11-9.ps1
 ```
 
+If you desire to change the version, please use the terminal with the `source` argument:
+
+```powershell
+.\portablepython3-11-9.ps1 -source "https://www.python.org/ftp/python/3.9.10/python-3.9.10-embed-amd64.zip"
+```
+
+Link for [Python versions](https://www.python.org/downloads/windows/)
+
+If you defise to change the destination folder, use the terminal with the `destination` argument:
+
+```powershell
+.\portablepython3-11-9.ps1 -destination "C:\new-path\PortablePython\"
+```
+
+Note: Path to a directory should always end with `\` (back space)
+
 ## Install PIP
 
 To install ``pip``, you should navigate to the ``python_embedded`` folder first:
