@@ -84,6 +84,8 @@ Then, save the list of installed libraries to a file:
 .\python.exe -m pip freeze > ..\requirements.txt
 ```
 
+Note: The ``requirements.txt`` file will be saved at the root of this project.
+
 ## Install Libraries from a requirements.txt
 
 Navigate to the ``python_embedded`` folder first:
