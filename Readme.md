@@ -40,5 +40,5 @@ cd ./python_embedded
 Then, run the following command:
 
 ```bash
-.\python.exe -m pip YOURMODULE
+.\python.exe -m pip install YOURMODULE
 ```
