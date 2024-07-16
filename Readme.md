@@ -92,10 +92,12 @@ Navigate to the ``python_embedded`` folder first:
 cd ./python_embedded
 ```
 
-Then, execute
+Then, execute:
 
 ```bash
 .\python.exe -m pip install -r ..\requirements.txt
 ```
+
+You can try with the ``requirements_test.txt`` file.
 
 Note: `requirements.txt` must exist on the root of this project. Note that `you must be inside of the python_embedded folder`, because it needs ``importlib`` and it could trigger stderr message if doesn't find it. 
