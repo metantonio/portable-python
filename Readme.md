@@ -6,7 +6,7 @@ The barebone of the Python portable is relatively small. It is not more than 9Mb
 
 ## How to use
 
-Download ``portablepython3-11-9.ps1`` in a folder and run it. By default ``portablepython3-11-9.ps1`` will setup Python 3.11.9 in the ``python_embedded`` folder.
+Download or clone this project adn run ``portablepython3-11-9.ps1``. By default ``portablepython3-11-9.ps1`` will setup Python 3.11.9 in the ``python_embedded`` folder.
 
 You can use the terminal too, if you prefer:
 
