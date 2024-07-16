@@ -42,3 +42,14 @@ Then, run the following command:
 ```bash
 .\python.exe -m pip install YOURMODULE
 ```
+
+
+## Running Scripts
+
+``From the root of this project``, watch the following example to run ``test.py`` inside of ``test_script`` folder:
+
+```bash
+.\python_embedded\python .\test_script\test.py
+```
+
+You should see `Hello World!` on the terminal
