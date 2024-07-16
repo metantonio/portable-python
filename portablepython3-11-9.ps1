@@ -65,7 +65,7 @@ Invoke-WebRequest -OutFile "$($destination)get-pip.py" "https://bootstrap.pypa.i
 "Cleaning up"
 Remove-Item -Path $package -Confirm:$false -Force
 Remove-Item -Path "$($destination)$($pythonVersion).zip" -Confirm:$false -Force
-Remove-Item -Path "$($destination)get-pip.py" -Confirm:$false -Force
+#Remove-Item -Path "$($destination)get-pip.py" -Confirm:$false -Force
 
 "Done!
 

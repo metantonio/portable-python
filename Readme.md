@@ -13,3 +13,32 @@ On the terminal:
 ```powershell
 .\portablepython3-11-9.ps1
 ```
+
+## Install PIP
+
+To install new modules, you should navigate to the ``python_embedded`` folder first:
+
+```bash
+cd ./python_embedded
+```
+
+Then, run the following command:
+
+```bash
+.\python get-pip.py
+```
+
+
+## Running PIP
+
+To install new modules, you should navigate to the ``python_embedded`` folder first:
+
+```bash
+cd ./python_embedded
+```
+
+Then, run the following command:
+
+```bash
+.\python.exe -m pip YOURMODULE
+```
