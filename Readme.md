@@ -6,6 +6,12 @@ The barebone of the Python portable is relatively small. It is not more than 9Mb
 
 ## How to use
 
+Note: You may need to open a PowerShell windows and enable the execution of unsigned digital scripts with:
+
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
 Download or clone this project and run ``portablepython3-11-9.ps1``. By default ``portablepython3-11-9.ps1`` will setup Python 3.11.9 in the ``python_embedded`` folder.
 
 You can use the terminal too, if you prefer:
