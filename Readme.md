@@ -4,10 +4,6 @@ The instance of non virtualized Python that is not dependent on the system path 
 
 The barebone of the Python portable is relatively small. It is not more than 9Mb in the 7z archive.
 
-# Download
-
-[Download here!](https://github.com/metantonio/portable-python/releases/tag/v1.0)
-
 ## How to use
 
 Note: You may need to open a PowerShell windows and enable the execution of unsigned digital scripts with:
