@@ -125,3 +125,7 @@ Then, execute:
 You can try with the ``requirements_test.txt`` file.
 
 Note: `requirements.txt` must exist on the root of this project. Note that `you must be inside of the python_embedded folder`, because it needs ``importlib`` and it could trigger stderr message if doesn't find it. 
+
+## Download a ready to use portable Python
+
+[Link to portable version of Python 3.11.8](https://github.com/metantonio/portable-python/releases/tag/v1.0)
